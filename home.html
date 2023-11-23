@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de Páginas Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="orange-header">
+    </header>
+    <div class="container">
+        <div class="centered-text">
+            <p>Ingresá la URL de la página que quieras analizar</p>
+        </div>
+        <div class="search-container">
+            <input type="text" class="placeholder" placeholder=" www.ejemplo.com">
+            <button id="analyzeButton" class="blue-button" onclick="window.location.href='resultados.html'">Analizar</button>
+            <div id="loader" class="loader"></div>
+        </div>
+    </div>
+    <script src="loading.js"></script>
+</body>
+</html>

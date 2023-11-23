@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="orange-header">
+    </header>
+    <div class="centered-text">
+        <h4>Resultados del análisis</h4>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="red-header">Análisis</th>
+                    <th class="green-header">Oportunidad</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!-- Fila 1 -->
+
+                <tr>
+                    <td class="red-cell"> 
+                        <p> <b>Orden de títulos en HTML</b></p> 
+                        <p>Los lectores de pantalla leen las páginas web en orden, según como esté maquetada desde HTML. Si no se siguen buenas prácticas de HTML como el etiquetado de los títulos en orden (H1, H2, H3...) la experiencia de navegación se vuelve mucho más inefectiva, ya que primero se leerán los títulos que están al final y se “perderá” todo lo que está por encima de ese contenido.</p>  
+                    </td>
+                    <td class="green-cell">
+                        <p><b>Implementar las buenas prácticas en HTML</b></p>
+                        <p>Para solucionar esto se recomienda que siempre se sigan las buenas prácticas de código HTML, implementando las etiquetas de títulos en el orden consecutivo correspondiente.</p>
+                        <img src="buenas_practicas_titulos.png" alt="Descripción de la imagen">
+                    </td>
+                </tr>
+                <!-- Fila 2 -->
+                <tr>
+                    <td class="red-cell">
+                        <p><b>Texto alternativo en las imágenes</b></p>
+                        <p>Detectamos que las imágenes que están en el sitio no tienen texto alternativo.  Esto provoca que los lectores de pantalla no puedan identificar el contexto que tiene la imagen y dificultar el entendimiento.</p>
+                    </td>
+                    <td class="green-cell">
+                        <p><b>Si la imagen no es decorativa</b></p>
+                        <p>Si la imagen no es decorativa se recomienda que puedas incluir un texto descriptivo sobre ella usando el atributo “alt”. De esta manera, cuando el lectos de pantalla se pose sobre ella identificará que es una imagen y leerá la descripción para que el usuario tenga todo el contexto.</p>
+                        <img src="imagen_no_decorativa.png" alt="Descripción de la imagen">
+                        
+                        <p><b><br>Si la imagen es decorativa</b></p>
+                        <p>En caso que la imagen tenga un propósito visual de diseño pero no sea indispensable para el entendimiento o la navegación, lo más conveniente es dejar el atributo alt vacío para que el lector de pantalla sepa de antemano que no la debe describir.</p>
+                        <img src="imagen_decorativa.png" alt="Descripción de la imagen">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

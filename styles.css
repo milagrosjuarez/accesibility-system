@@ -1,0 +1,160 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.orange-header {
+  background-color: orange;
+  width: 2280px;
+  height: 60px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 1000px;
+  height: 250px;
+  flex-shrink: 0;
+}
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.search-container {
+  text-align: center;
+  position: relative;
+}
+
+.search-container input[type="text"] {
+  width: 825px;
+  height: 60px;
+  flex-shrink: 0;  
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.placeholder {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blue-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.blue-button:hover {
+  background-color: #0056b3;
+}
+
+/*acá arranca los estilos del loading*/
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: none;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.orange-header {
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+}
+
+.loader-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.loader-container p {
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Acá arrancan los estilos de la tabla */
+
+.table-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #A6ACAF;
+}
+
+th {
+  color: #000;
+}
+
+.red-header {
+  background-color: #F1948A;
+  width: 50%;
+  text-align: center;
+}
+
+.green-header {
+  background-color: #82E0AA;
+  width: 50%;
+  text-align: center;
+}
+
+.red-cell {
+  background-color: #FADBD8;
+  color: #000;
+  width: 50%;
+  vertical-align: text-top;
+}
+
+.green-cell {
+  background-color: #D5F5E3;
+  color: #000;
+  width: 50%;
+}
